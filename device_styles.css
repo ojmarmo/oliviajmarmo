@@ -1,0 +1,347 @@
+/********** Device Styles **********/
+
+/**** Tablet: 1024 px ****/
+@media only screen and (max-width: 1024px) {
+
+  #contact, #about, #portfolio, #social  {
+    margin-top: 6%;
+  }
+
+  input.verif_box {
+    width: 100%;
+  }
+
+  img.verif_img {
+    height: 30px;
+    vertical-align: bottom;
+  }
+
+}
+
+/**** Tablet Portrait: 900px ****/
+@media only screen and (max-width: 900px) {
+
+  section {
+    padding: 20px 20px 45px 20px;
+  }
+
+  #about p {
+    padding-top: 2%;
+  }
+
+  img.verif_img {
+    height: 30px;
+    vertical-align: bottom;
+  }
+
+}
+
+/**** Tablet Portrait: 800px ****/
+@media only screen and (max-width: 800px) {
+
+  p {
+    font-size: 21px;
+  }
+
+  #about p {
+    padding-top: 10px;
+  }
+
+  #contact p {
+    padding-top: 15%;
+  }
+
+}
+
+/**** Tablet Portrait: 768px ****/
+@media only screen and (max-width: 768px) {
+
+  section {
+    padding: 2% 20px 4% 20px;
+  }
+
+  fieldset {
+    padding-top: 2%;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  img.verif_img {
+    height: 30px;
+    vertical-align: bottom;
+  }
+
+  #contact, #about, #portfolio, #social  {
+    margin-top: 6%;
+  }
+
+  h2 {
+    padding-bottom: 2%;
+  }
+
+  .nav {
+    padding: 2%;
+  }
+
+  #nav_bar a {
+    font-size: 22px;
+  }
+
+ #about p {
+    padding: 20px 30px 0 0;
+  }
+
+  #about img {
+    width: 25%;
+  }
+
+  #portfolio p, p {
+    font-size: 20px;
+  }
+
+  #portfolio p {
+    padding-top: 5px;
+  }
+
+  #contact p {
+    padding-top: 15%;
+  }
+
+  #social {
+    padding: 2% 20px 2% 20px;
+  }
+}
+
+/*** Smartphone Landscape: 640px **/
+@media only screen and (max-width: 640px) {
+
+  #about p {
+    padding-right: 20px;
+    padding-top: 10px;
+ }
+}
+
+/*** Smartphone Landscape: 568px **/
+@media only screen and (max-width: 568px) {
+
+   h1 {
+    font-size: 30px;
+  }
+
+  section {
+    margin-top: 100px;
+    padding: 4%;
+  }
+
+  nav {
+    word-spacing: 40px;
+  }
+
+  p {
+    font-size: 18px;
+    width: auto;
+  }
+
+  fieldset {
+    padding-top: 5%;
+    font-size: 18px;
+  }
+
+  input {
+    font-size: 20px;
+  }
+
+  figure {
+    width: 85%;
+    margin-left: 7%;
+  }
+
+  #contact, #about, #portfolio, #social  {
+    margin-top: 5%;
+  }
+
+  #nav_bar a {
+    font-size: 20px;
+  }
+
+  #logo h1 {
+    margin-top: 4%;
+    font-size: 40px;
+  }
+
+  #logo img {
+    display: inline-block;;
+  }
+
+  #about img {
+    display: none;
+  }
+
+  #about p {
+    padding: 0;
+  }
+
+  .polaroid {
+    padding: 6px 0 0 0;
+  }
+
+  #portfolio p {
+    display: none;
+  }
+
+  #portfolio img {
+    width: 90%;
+    margin: 2%;
+  }
+
+  #contact p {
+    display: none;
+  }
+
+  .col1_left {
+    width: 100%;
+  }
+
+  #social img {
+    width: 10%;
+    padding: 0 4px 0 4px;
+  }
+
+  #social p {
+    padding-bottom: 2%;
+  }
+}
+
+/*** Smartphone Landscape: 480px **/
+@media only screen and (max-width: 480px) {
+
+  h1 {
+    font-size: 32px;
+  }
+
+  section {
+    margin-top: 100px;
+    padding: 5%;
+  }
+
+  nav {
+    word-spacing: 40px;
+  }
+
+  p {
+    font-size: 18px;
+    width: auto;
+  }
+
+  fieldset {
+    padding-top: 5%;
+    font-size: 18px;
+  }
+
+  input {
+    font-size: 20px;
+  }
+
+  #contact, #about, #portfolio, #social  {
+    margin-top: 10%;
+  }
+
+  #nav_bar a {
+    font-size: 18px;
+  }
+
+  #logo h1 {
+    margin-top: 6%;
+  }
+
+  #logo img {
+    display: inline-block;
+  }
+
+  #about img {
+    display: none;
+  }
+
+  #about p {
+    padding: 0;
+  }
+
+  .polaroid {
+    padding: 6px 0 0 0;
+  }
+
+  #portfolio p {
+    display: none;
+  }
+
+  #portfolio img {
+    width: 90%;
+    margin: 2%;
+  }
+
+  #contact p {
+    display: none;
+  }
+
+  .col1_left {
+    width: 100%;
+  }
+
+  #social img {
+    width: 14%;
+  }
+
+  #social p {
+    padding-bottom: 2%;
+  }
+}
+
+/*** Smartphone Portrait: 375px ***/
+@media only screen and (max-width: 375px) {
+
+  #logo h1 {
+    margin: 5%;
+    font-size: 35px;
+  }
+
+  #logo img {
+    display: none;
+  }
+
+  #social img {
+    width: 17%;
+  }
+
+  .polaroid {
+    width: 75%;
+  }
+}
+
+/*** Smartphone Portrait: 320px ***/
+@media only screen and (max-width: 320px) {
+
+  #social {
+    padding: 3%;
+  }
+
+  #social img {
+    width: 18%;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+}
+
+/*** Printer ***/
+
+@media print {
+  * {
+    color: black;
+  }
+}
+
+
+/* code examples copyright Olivia Marmo 2017 */
